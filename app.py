@@ -215,7 +215,7 @@ def main():
     """, unsafe_allow_html=True)
     
     # Заголовок
-    st.markdown('<div class="main-header">Компонентный анализ лексического значения</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">Программа автоматического компонентного анализа лексического значения LexiSeme</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-header">Система семного анализа на базе Stanza</div>', unsafe_allow_html=True)
     
     # Инициализация сессии
