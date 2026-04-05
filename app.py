@@ -407,7 +407,7 @@ def main():
                     return 'background-color: #ecf0f1; color: #7f8c8d;'
             
             st.dataframe(
-                styled_matrix.style.applymap(color_matrix),
+                styled_matrix.style.map(color_matrix),
                 use_container_width=True,
                 height=400
             )
