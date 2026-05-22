@@ -3,3 +3,4 @@ pandas
 stanza
 plotly
 openpyxl
+transformers
