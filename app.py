@@ -7,6 +7,8 @@ from typing import List, Dict, Set
 from collections import defaultdict, Counter
 import io
 
+stanza.download('ru')
+
 # ============================================================================
 # КОНФИГУРАЦИЯ СТРАНИЦЫ
 # ============================================================================
