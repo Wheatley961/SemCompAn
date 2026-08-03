@@ -428,6 +428,13 @@ def main():
                     st.write(f"**Дефиниция:** {definition}")
                     semes = system.processor.extract_semes(definition)
                     st.write(f"**Выделенные семы:** {', '.join(semes)}")
+
+        st.caption("""
+Разработчик: И.Д. Мамаев 
+<a href="mailto:mamaev_id@voenmeh.ru" style="text-decoration: none; margin-left: 5px; background: none; border: none; padding: 0;">
+    <span style="font-size: 1.2em; background: transparent;">📧</span>
+</a>, Свидетельство о регистрации программы для ЭВМ RU 2026668968, 08.07.2026. Заявка № 2026680053 от 24.06.2026.
+""", unsafe_allow_html=True)
     
     with tab3:
         st.header("Визуализация результатов")
@@ -507,6 +514,13 @@ def main():
                     st.plotly_chart(fig_top, use_container_width=True)
                 else:
                     st.info("Нет данных для отображения")
+
+        st.caption("""
+Разработчик: И.Д. Мамаев 
+<a href="mailto:mamaev_id@voenmeh.ru" style="text-decoration: none; margin-left: 5px; background: none; border: none; padding: 0;">
+    <span style="font-size: 1.2em; background: transparent;">📧</span>
+</a>, Свидетельство о регистрации программы для ЭВМ RU 2026668968, 08.07.2026. Заявка № 2026680053 от 24.06.2026.
+""", unsafe_allow_html=True)
     
     with tab4:
         st.header("Статистика анализа")
@@ -574,6 +588,13 @@ def main():
             3. **Плотность матрицы** показывает насколько слова семантически близки
             4. **Пустые ячейки** означают отсутствие признака в дефиниции
             """)
+
+        st.caption("""
+Разработчик: И.Д. Мамаев 
+<a href="mailto:mamaev_id@voenmeh.ru" style="text-decoration: none; margin-left: 5px; background: none; border: none; padding: 0;">
+    <span style="font-size: 1.2em; background: transparent;">📧</span>
+</a>, Свидетельство о регистрации программы для ЭВМ RU 2026668968, 08.07.2026. Заявка № 2026680053 от 24.06.2026.
+""", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
