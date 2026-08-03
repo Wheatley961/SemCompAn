@@ -380,6 +380,13 @@ def main():
                             st.success("✅ Анализ успешно выполнен!")
                         else:
                             st.error("❌ Не удалось выделить семы из дефиниций!")
+
+        st.caption("""
+Разработчик: И.Д. Мамаев 
+<a href="mailto:mamaev_id@voenmeh.ru" style="text-decoration: none; margin-left: 5px; background: none; border: none; padding: 0;">
+    <span style="font-size: 1.2em; background: transparent;">📧</span>
+</a>, Свидетельство о регистрации программы для ЭВМ RU 2026668968, 08.07.2026. Заявка № 2026680053 от 24.06.2026.
+""", unsafe_allow_html=True)
     
     with tab2:
         st.header("Матрица семного анализа")
